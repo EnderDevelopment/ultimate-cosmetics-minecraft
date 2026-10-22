@@ -1,0 +1,18 @@
+name: UltimateCosmetics
+version: 1.0
+main: com.ultimatescosmetics.UltimateCosmetics
+author: YourName
+description: A premium cosmetic system for Minecraft servers
+api-version: 1.21
+commands:
+  cosmetics:
+    description: Open the cosmetics menu
+    usage: /cosmetics
+    permission: ultimatescosmetics.use
+permissions:
+  ultimatescosmetics.use:
+    description: Allows the player to use the cosmetics command
+    default: true
+  ultimatescosmetics.admin:
+    description: Allows the player to manage cosmetics
+    default: op
